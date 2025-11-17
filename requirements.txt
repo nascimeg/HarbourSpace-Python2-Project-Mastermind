@@ -1,0 +1,17 @@
+# Mastermind Python Project Requirements
+# This project uses only the Python standard library
+# Recommended Python version:
+python_version >= 3.8
+
+# The game is pretty simple, so it does not require any external libraries
+
+
+# for future librabries like numpy or pygame -> generate requriments txt with: 
+# pip freeze > requirements.txt
+
+# to recreate environment -> run:
+# python -m venv venv
+# source venv/bin/activate   # or venv\Scripts\activate on Windows
+# pip install -r requirements.txt
+
+
