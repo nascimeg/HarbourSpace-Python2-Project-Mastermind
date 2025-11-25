@@ -69,7 +69,7 @@ venv\Scripts\activate      # Windows</code></pre>
 ### 3. Isntall Required Dependecies
 The game includes external libraries (e.g., `python-dotenv`, `openai`).
 Install everything from `requirements.txt`:
-<pre><code>```pip install -r requirements.txt```</code></pre>
+<pre><code>pip install -r requirements.txt</code></pre>
 
 ### 4. Set Up your `.env` File (Very Important)
 Because the game uses the OpenAI API to generate jokes, you must create a `.env` file containing your API key.
