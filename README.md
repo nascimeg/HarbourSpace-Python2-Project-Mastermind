@@ -58,13 +58,13 @@ Bonus: The game may respond with AI-generated jokes during gameplay.
 To run the project on your own machine, follow the steps below.
 
 ### 1. Clone repository 
-<pre><code>```git clone https://github.com/YOUR-USERNAME/HarbourSpace-Python2-Project-Mastermind.git
-cd HarbourSpace-Python2-Project-Mastermind```</code></pre>
+<pre><code>git clone https://github.com/YOUR-USERNAME/HarbourSpace-Python2-Project-Mastermind.git
+cd HarbourSpace-Python2-Project-Mastermind</code></pre>
 
 ### 2. Create a Virtual Environment 
-<pre><code>```python3 -m venv venv
+<pre><code>python3 -m venv venv
 source venv/bin/activate   # macOS/Linux
-venv\Scripts\activate      # Windows```</code></pre>
+venv\Scripts\activate      # Windows</code></pre>
 
 ### 3. Isntall Required Dependecies
 The game includes external libraries (e.g., `python-dotenv`, `openai`).
@@ -75,7 +75,7 @@ Install everything from `requirements.txt`:
 Because the game uses the OpenAI API to generate jokes, you must create a `.env` file containing your API key.
 
 #### Create the `.env` file:
-<pre><code>```OPENAI_API_KEY=your_api_key_here```</code></pre>
+<pre><code>OPENAI_API_KEY=your_api_key_here</code></pre>
 
 #### How to get your API key:
 1. Go to platform.openai.com
@@ -87,7 +87,7 @@ Because the game uses the OpenAI API to generate jokes, you must create a `.env`
 It should always stay local on your computer.
 
 ### 5. Run the game
-<pre><code>```python3 mastermind.py```</code></pre>
+<pre><code>python3 mastermind.py</code></pre>
 That’s it — the game launches in your terminal!
 
 
@@ -95,7 +95,7 @@ That’s it — the game launches in your terminal!
 placeholder
 
 ## Project Structure
-<pre><code>```project/
+<pre><code>project/
 │
 ├── mastermind.py
 ├── README.md
@@ -103,7 +103,7 @@ placeholder
 ├── .env (not included — user must create)
 └── assets/
     └── gameplay.gif (optional)
-```</code></pre>
+</code></pre>
 
 ## Credits
 Created by Gabriela (aka nascimeg) and Abhi at Harbour.Space University
